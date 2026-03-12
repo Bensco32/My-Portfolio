@@ -465,11 +465,33 @@ img {
     #first {
         margin-top: 400px;
         margin-bottom: 10px;
-        height: 150px;
+        height: 100px;
+    }
+
+    #second {
+        height: 100px;
+    }
+
+    #third {
+        height: 100px;
     }
 
     .first-text {
         margin-top: 30px;
+        padding-top: 2px;
+        font-size: 30px;
+    }
+
+    .second-text {
+        margin-top: 30px;
+        padding-top: 2px;
+        font-size: 30px;
+    }
+
+    .third-text {
+        margin-top: 30px;
+        padding-top: 2px;
+        font-size: 30px;
     }
 
     #forth {
@@ -480,7 +502,9 @@ img {
     }
 
     .forth-text {
-        font-size: 40px;
+        margin-top: 30px;
+        padding-top: 0;
+        font-size: 30px;
     }
 
     .Years {
@@ -531,16 +555,21 @@ img {
     }
 
     .first-box {
-        height: 702px;
+        height: 705px;
     }
 }
 
 @media (max-width: 412px) {
     .first-box {
-        height: 657px;
+        height: 658px;
     }
 
     .Years {
         left: 320px;
+    }
+
+    .footer-box {
+        padding-top: 10px;
+        margin-top: 15px;
     }
 }
