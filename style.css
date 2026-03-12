@@ -517,7 +517,7 @@ img {
     }
 
     .year {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     img {
@@ -532,5 +532,15 @@ img {
 
     .first-box {
         height: 702px;
+    }
+}
+
+@media (max-width: 412px) {
+    .first-box {
+        height: 657px;
+    }
+
+    .Years {
+        left: 320px;
     }
 }
